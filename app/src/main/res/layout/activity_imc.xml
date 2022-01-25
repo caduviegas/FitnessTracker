@@ -22,11 +22,13 @@
 
         <EditText
             android:id="@+id/edit_imc_weight"
-            style="@style/EditTextForm" />
+            style="@style/EditTextForm"
+            android:hint="@string/weight"/>
 
         <EditText
             android:id="@+id/edit_imc_height"
-            style="@style/EditTextForm"/>
+            style="@style/EditTextForm"
+            android:hint="@string/height"/>
 
         <Button
             android:id="@+id/btn_imc_send"
